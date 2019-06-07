@@ -29,9 +29,21 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+PropTypes are used to check the data structure and types of props that are passed into a component. This is
+useful because it allows us to set an expected 'shape' of data so that we, and more so, other developers, could use that component without any unexpected mistakes in passing the props that component requires.
+
 - [ ] Describe a life-cycle event in React?
+
+A lifecycle event is one of three: Mount, update, unmount. This events will cause React to call on several special functions in a specific, and documented order. This allows us to control more finely how our code runs and allows us to orechestrate the timing of our application better.
+
 - [ ] Explain the details of a Higher Order Component?
+
+A higher order component is a component that, to the outside eye, can change its own properties and functionality based on the input coming in by return a different function depending on the input, and some other conditions.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+With CSS files, imported at the top of each ReactJS file. You could use styled components from Facebok, or you could use inline-styles. With regular CSS files, it becomes much easier to manage all your files and keep your styles nicely separated. (This also means you can use SASS or another pre-processor). Styled components can be useful if a certain component will only have a few styles that don't warrant a new file. And inline-styles can be useful in a very specific instance where it may be needed on one specific element and nowhere else, ever.
 
 ## Project Setup
 
