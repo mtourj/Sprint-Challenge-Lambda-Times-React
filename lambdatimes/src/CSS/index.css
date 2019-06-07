@@ -53,21 +53,6 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* @media (min-width: 1280px) {
-  .top-bar .container {
-    width: 1280px;
-  }
-} */
-
-
-.header h1 {
-  font-size: 60px;
-  font-family: Didot, serif;
-  font-weight: bold;
-  flex: 8;
-  text-align: center;
-  color: #000;
-}
 .content-container {
   display: flex; 
   flex-direction: column; 
